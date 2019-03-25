@@ -1,18 +1,21 @@
+<form class="example-form">
 <div>
   <div>
     <h1>Log in</h1>
-      <div>
-        <input label="Gebruikersnaam" style="width:40%">
-      </div>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Username">
+    </mat-form-field>
     <br>
-      <div>
-        <input label="Wachtwoord" style="width: 40%" type="password">
-      </div>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Password" type="password">
+    </mat-form-field>
       <br>
-      <div class="buttons">
-        <button class="primary-btn" value="" style="margin-right: 0;">
+      <div>
+        <button mat-raised-button color="primary"(click)="login('teamc')" style="margin-right: 0;">
         Inloggen
-        </button>
+      </button>
       </div>
   </div>
+  <h5>Klik maar op inloggen. Zit nog geen logica achter. Gr, Jurgen</h5>
 </div>
+</form>

@@ -1,1 +1,11 @@
-<app-login></app-login>
+<div *ngIf="showMainView">
+    <app-navigation></app-navigation>
+        <app-team-c *ngIf="currentView == 'teamc'"></app-team-c>
+        <app-jurgen *ngIf="currentView == 'jurgen'"></app-jurgen>
+        <app-karan *ngIf="currentDialog == 'karan'"></app-karan>
+        <app-tareq *ngIf="currentDialog == 'tareq'"></app-tareq>
+        <app-zina *ngIf="currentDialog == 'zina'"></app-zina>
+</div>
+<div *ngIf="currentDialog == 'login'" id="dialogs">
+    <app-login></app-login>
+</div>
