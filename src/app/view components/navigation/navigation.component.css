@@ -1,0 +1,19 @@
+.App {
+  display: inline-block;
+  color: white;
+}
+
+.App__Aside {
+  width: 10%;
+  background-color: #2E4158;
+}
+
+.App__Form {
+  width:100%;
+  background-color: #2E4158;
+  padding: 25px 40px;
+  overflow: auto;
+}
+.FormCenter {
+  margin-bottom: 100px;
+}
