@@ -1,8 +1,8 @@
 <div *ngIf="showMainView">
     <app-navigation></app-navigation>
-        <app-team-c *ngIf="currentView == 'teamc'"></app-team-c>
-        <app-jurgen *ngIf="currentView == 'jurgen'"></app-jurgen>
-        <app-karan *ngIf="currentDialog == 'karan'"></app-karan>
+        <app-home *ngIf="currentView == 'home'"></app-home>
+        <app-over-ons *ngIf="currentView == 'OverOns'"></app-over-ons>
+        <app-tips-and-tricks *ngIf="currentDialog == 'Tips-and-tricks'"></app-tips-and-tricks>
         <app-tareq *ngIf="currentDialog == 'tareq'"></app-tareq>
         <app-zina *ngIf="currentDialog == 'zina'"></app-zina>
 </div>

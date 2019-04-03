@@ -14,8 +14,8 @@ export class LoginComponent implements OnInit {
   }
 
   login(){
-    this.app.setView("teamc");
-    this.app.setDialog("teamc");
+    this.app.setView("home");
+    this.app.setDialog("home");
     this.app.showMainView = true;
   }
 }
